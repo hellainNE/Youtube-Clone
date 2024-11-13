@@ -1,0 +1,40 @@
+
+
+.picture{
+  width:100%;
+}
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap:16px;
+  row-gap: 40px;
+}
+
+.video-info-grid{
+  display:grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.vidtitle{
+  margin-top: 15px;
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 20px;
+}
+
+.vidauthor, .vidstats{
+  color:rgb(109, 104, 104);
+  font-size:12px;
+}
+.vidauthor{
+ margin-top:10px;
+}
+
+.vidstats{
+margin-top:2px;
+}
+.channel-p{
+  width:40px;
+  margin-top:16px;
+  border-radius: 50px;
+}
